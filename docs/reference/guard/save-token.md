@@ -33,7 +33,7 @@ const App = () => {
 
 用户登录成功后，在二次会话的时候，我们之前已经将 `token` 进行了缓存。我们首先需要对这个 `token` 进行登录状态校验，校验成功后在进行用户详细信息的获取。下方代码以 `React` 为例。
 
-检测 Token 登录状态，可以使用 `authing-js-sdk`，提供的内置方法，这个是相关的文档 [checkLoginStatus](/reference/sdk-for-node/authentication/AuthenticationClient.md#检测 Token 登录状态)。
+检测 Token 登录状态，可以使用 `authing-js-sdk`，提供的内置方法，这个是相关的文档 [checkLoginStatus](/reference/sdk-for-node/authentication/AuthenticationClient.md#检测-token-登录状态)。
 
 > what？你不知道如何使用 `authing-js-sdk`，那你可以参一下文档 [Guard 中使用 AuthenticationClient](/reference/guard/use-js-sdk.md)
 

@@ -3,7 +3,7 @@
 
 `AuthenticationClient` 是 `authing-js-sdk` 提供的以终端用户（End User）的身份进行请求，提供了登录、注册、登出、管理用户资料、获取授权资源等所有管理用户身份的方法。
 
-如果使用的是 `npm` 或者 `yarn` 安装的方式，因为 Guard 依赖 `authing-js-sdk`，可以在项目中直接引用 `authing-js-sdk`[![](https://img.shields.io/npm/v/authing-js-sdk.svg?style=flat-square)](https://www.npmjs.com/package/authing-js-sdk)，并使用相应的方法。具体的方法可以参考文档 [Authing JavaScript/Node SDK](/reference/sdk-for-node/AuthenticationClient.md)。
+如果使用的是 `npm` 或者 `yarn` 安装的方式，因为 Guard 依赖 `authing-js-sdk`，可以在项目中直接引用 `authing-js-sdk`[![](https://img.shields.io/npm/v/authing-js-sdk.svg?style=flat-square)](https://www.npmjs.com/package/authing-js-sdk)，并使用相应的方法。具体的方法可以参考文档 [Authing JavaScript/Node SDK](/reference/sdk-for-node/authentication/AuthenticationClient.md)。
 
 ```JS
 import { AuthenticationClient } from "authing-js-sdk"

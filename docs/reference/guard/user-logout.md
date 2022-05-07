@@ -30,7 +30,7 @@ function App() {
 
 ## 使用 Token 完成登出操作
 
-用户登录成功后，在二次会话时，我们需要在用户登录成功时将 `token` 进行缓存，具体的方法可以参考文档 [Token 缓存](/reference/guard/save-token.md#Token 缓存)。我们使用 `authing-js-sdk` 中的 `logout` 方法，[logout 方法的相关文档]((/reference/sdk-for-node/authentication/AuthenticationClient.md#退出登录)。这样使用的话需要使用 `token` 初始化 `AuthenticationClient`。
+用户登录成功后，在二次会话时，我们需要在用户登录成功时将 `token` 进行缓存，具体的方法可以参考文档 [校验以及获取用户信息](/reference/guard/save-token.md#token-缓存)。我们使用 `authing-js-sdk` 中的 `logout` 方法，logout [方法的相关文档]((/reference/sdk-for-node/authentication/AuthenticationClient.md#退出登录)。这样使用的话需要使用 `token` 初始化 `AuthenticationClient`。
 
 ```JS
 const authClient = new AuthenticationClient({
