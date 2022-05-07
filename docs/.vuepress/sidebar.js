@@ -838,33 +838,53 @@ const zhCnNavBar = {
       path: "/reference/guard/",
       children: [
         {
-          title: "React",
-          path: "/reference/guard/react"
+          title: "Guard 快速开始",
+          path: "/reference/guard/quick-start/"
         },
         {
-          title: "Vue",
-          path: "/reference/guard/vue"
+          title: "使用 JS-SDK",
+          path: "/reference/guard/use-js-sdk.md"
         },
         {
-          title: "Angular",
-          path: "/reference/guard/angular"
+          title: "Token 校验以及获取用户信息",
+          path: "/reference/guard/save-token.md"
         },
         {
-          title: "原生 JavaScript",
-          path: "/reference/guard/native-javascript"
+          title: "SSO 单点登录",
+          path: "/reference/guard/sso.md"
         },
+        {
+          title: "用户登出",
+          path: "/reference/guard/user-logout.md"
+        },
+        // {
+        //   title: "React",
+        //   path: "/reference/guard/react"
+        // },
+        // {
+        //   title: "Vue",
+        //   path: "/reference/guard/vue"
+        // },
+        // {
+        //   title: "Angular",
+        //   path: "/reference/guard/angular"
+        // },
+        // {
+        //   title: "原生 JavaScript",
+        //   path: "/reference/guard/native-javascript"
+        // },
         {
           title: "完整参数列表",
           path: "/reference/guard/parameters"
         },
         {
-          title: "迁移指南",
+          title: "Guard V1 迁移指南",
           path: "/reference/guard/migration"
-        },
-        {
-          title: "Guard Changelog",
-          path: "/reference/guard/guard-changelog"
         }
+        // {
+        //   title: "Guard Changelog",
+        //   path: "/reference/guard/guard-changelog"
+        // }
       ]
     },
     // {
