@@ -42,36 +42,7 @@ Guard 内置了多因素认证（MFA）功能，当你的应用开启了[多因�
 
 #### 兼容前端所有主流框架
 
-- [React 组件](./react.md)；
-- [Vue 组件](./vue.md)；
-- [Angular 组件](./angular.md)；
-- [原生 JavaScript 调用](./native-javascript.md)。
-
-<!-- ## 在线示例
-
-</br>
-<iframe src="https://codesandbox.io/embed/authing-react-guard-forked-stxv2?fontsize=14&hidenavigation=1&theme=dark"
-     style="width:100%; height:800px; border:0; border-radius: 4px; overflow:hidden;"
-     title="authing-react-guard (forked)"
-     allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
-     sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
-   ></iframe> -->
-
-## 在 React 项目中使用
-
-你可以在你的 React 项目中引入 `@authing/react-ui-components` 包，详情请见 [React 登录组件使用文档](./react.md)。
-
-## 在 Vue.js 项目中使用
-
-你可以在你的 Vue.js 项目中引入 `@authing/vue-ui-components` 包，详情请见 [Vue.js 登录组件使用文档](./vue.md)。
-
-## 在 Angular 项目中使用
-
-你可以在你的 Vue.js 项目中引入 `@authing/ng-ui-components` 包，详情请见 [Angular 登录组件使用文档](./angular.md)。
-
-## 在原生 JavaScript 项目中使用
-
-你可以在你的原生 JavaScript 项目中引入 `@authing/native-js-ui-components` 包，详情请见 [原生 JavaScript 登录组件使用文档](./native-javascript.md)。
+更加详细的内容可以跳转到，Guard 快速开始，可以帮助你更快的上手使用。[Guard-快速开始](/reference/guard/quick-start/)
 
 ## 获取帮助
 

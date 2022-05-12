@@ -31,4 +31,4 @@ Authing Web 端 Guard 3.0 版本已于 2021.12.31 正式上线，关于本次更
 
 获取到用户信息之后，你可以得到用户的身份凭证（用户信息的 token 字段），token 字段为标准的 OIDC IdToken，你可以在后端使用应用的 ID 和 Secret 验证此 token。
 
-token 缓存以及获取用户信息的相关操作，可以参考另外一篇文档
+token 缓存以及获取用户信息的相关操作，可以参考另外一篇文档 [toekn-校验以及获取用户信息](/reference/guard/save-token.md)
